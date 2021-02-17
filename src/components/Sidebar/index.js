@@ -1,12 +1,5 @@
-import {
-    Container,
-    MenuItem,
-    Following,
-    FollowingHeader,
-    InfoContainer,
-    Links,
-  } from './styles';
-  //import User from '../User';
+import {Container, MenuItem, Following, FollowingHeader, InfoContainer, Links} from './styles';
+  import User from '../User';
   
   function Sidebar() {
     return (
@@ -21,14 +14,14 @@ import {
         </MenuItem>
         <Following>
           <FollowingHeader>Suas pricipais contas</FollowingHeader>
-          {/*<User
+          <User
             user={{
               name: 'Will Smith',
               username: 'willsmith',
               avatar:
                 'https://p16-amd-va.tiktokcdn.com/img/musically-maliva-obj/1646315618666501~c5_100x100.jpeg',
             }}
-          ></User>*/}
+          ></User>
         </Following>
         <InfoContainer>
           <Links margin>
